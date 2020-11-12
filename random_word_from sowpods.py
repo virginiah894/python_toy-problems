@@ -1,9 +1,7 @@
 import random
-
-
 import urllib.request
 
-url = "http://norvig.com/ngrams/sowpods.txthttp://norvig.com/ngrams/sowpods.txt"
+url = "http://norvig.com/ngrams/sowpods.txt"
 file_to = "download_file.txt"
 urllib.request.urlretrieve(url, file_to)
 with open('download_file.txt') as dtf:
